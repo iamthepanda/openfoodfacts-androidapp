@@ -173,3 +173,7 @@ dependencies {
         exclude module: 'recyclerview-v7'
     }
 }
+
+configurations {
+    all*.exclude group: 'commons-logging', module: 'commons-logging'
+}
